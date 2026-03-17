@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.js.map
+npm-debug.log*

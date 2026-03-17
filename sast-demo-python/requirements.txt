@@ -1,0 +1,45 @@
+# -----------------------------------------------------------------------
+# Dependencies pinned to versions with KNOWN CVEs — for SAST demo only.
+# DO NOT use in production.
+# -----------------------------------------------------------------------
+
+# Flask 0.12.2 — CVE-2018-1000656: ReDoS via Werkzeug URL routing
+Flask==0.12.2
+
+# Django 2.2.0 — CVE-2019-14234: SQL injection via key/value lookups
+#              — CVE-2019-12781: incorrect HTTP detection behind reverse proxy
+Django==2.2.0
+
+# Pillow 5.4.1 — CVE-2019-16865: DoS via crafted image
+#              — CVE-2020-5313: out-of-bounds read in FLI decoding
+Pillow==5.4.1
+
+# requests 2.18.0 — CVE-2018-18074: credentials exposed in redirect
+requests==2.18.0
+
+# PyYAML 3.13 — CVE-2017-18342: arbitrary code execution via yaml.load()
+PyYAML==3.13
+
+# cryptography 2.2.2 — CVE-2018-10903: GCM nonce reuse vulnerability
+cryptography==2.2.2
+
+# urllib3 1.22 — CVE-2018-20060: CRLF injection / header injection
+urllib3==1.22
+
+# Jinja2 2.10 — CVE-2019-8341: sandbox escape allowing RCE
+Jinja2==2.10
+
+# paramiko 2.4.1 — CVE-2018-1000805: authentication bypass
+paramiko==2.4.1
+
+# lxml 4.1.1 — CVE-2018-19787: XSS via href attribute sanitization bypass
+lxml==4.1.1
+
+# SQLAlchemy 1.3.0 — CVE-2019-7164: SQL injection via order_by clause
+SQLAlchemy==1.3.0
+
+# Werkzeug 0.14.1 — CVE-2019-14806: predictable temporary filenames
+Werkzeug==0.14.1
+
+# pycrypto 2.6.1 — CVE-2013-7459: heap buffer overflow in ALGnew
+pycrypto==2.6.1
