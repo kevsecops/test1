@@ -21,7 +21,7 @@
     "node-serialize": "0.0.4",
     "nodemailer": "4.7.0",
     "path-parse": "1.0.6",
-    "tar": "4.4.8",
+    "tar": "4.4.19",
     "ws": "5.2.0"
   },
   "devDependencies": {
