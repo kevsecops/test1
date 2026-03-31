@@ -15,13 +15,13 @@ Django==2.2.0
 Pillow==5.4.1
 
 # requests 2.18.0 — CVE-2018-18074: credentials exposed in redirect
-requests==2.18.0
+requests==2.33.0
 
 # PyYAML 3.13 — CVE-2017-18342: arbitrary code execution via yaml.load()
 PyYAML==3.13
 
 # cryptography 2.2.2 — CVE-2018-10903: GCM nonce reuse vulnerability
-cryptography==2.2.2
+cryptography==46.0.6
 
 # urllib3 1.22 — CVE-2018-20060: CRLF injection / header injection
 urllib3==1.22
